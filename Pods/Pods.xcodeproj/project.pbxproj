@@ -12,48 +12,48 @@
 		143072F35445E99A554FB7DB07F3B6B1 /* ObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 329EE0BEF1E852B8ACFB520E46D9E2EB /* ObjectMapper-dummy.m */; };
 		1A4EF2E08995A8F98AAAF1B762AF7E12 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39ED475012A554D96F07CA84ABFFC6EF /* DateFormatterTransform.swift */; };
 		2820274A99473E18C3F08C5C7D4EB433 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D40ABC9C51215D4B9D218A73F6247EF /* ToJSON.swift */; };
+		2B5471D8AF24ACAEC54EEDA880432C79 /* Pods-HalfTunesFakeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FD42ED80812E140BAC6C8C05DFC7E6 /* Pods-HalfTunesFakeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BE8CFE0B678365EB7563F2938C45702 /* Pods-HalfTunes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EC4E151E94DFEB95AF0F62F85EDE2C /* Pods-HalfTunes-dummy.m */; };
-		2C3FC42A02C5E4C7634FA9941D730A4C /* Pods-HalfTunesFakeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FD42ED80812E140BAC6C8C05DFC7E6 /* Pods-HalfTunesFakeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D59492F963725B3387815341163BC44 /* ObjectMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C444E318821FE828DE9575AE69BE61 /* ObjectMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F033E1E9E4915C871EC009231281785 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72BBB7FDCF0DEEDA8341924C2BA86B7 /* TransformOf.swift */; };
 		5CC7905F2B07D99F505C8AD6BD49FF80 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2852E4E9D5B338005174DB709D512B6 /* Map.swift */; };
 		61CF0926CCB1051A9E48081961ABC262 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6039B4D7461014913444EB1925BD741A /* Mapper.swift */; };
 		688A7F6C19D9A5D13CED59B13F59E66A /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED07E70A81E7514963EE35C13D16888 /* Mappable.swift */; };
 		69C564A51C3B622E36D7DF08477CE884 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DC9122045312BA9F1A61AA4F2C0407 /* ImmutableMappable.swift */; };
-		81A58D86BF45940D621C23CA33013F26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		81C52CF7A251BEF3A3D2E60576089BC0 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6FE68F2653656FACF33F23973E1EA9 /* EnumTransform.swift */; };
 		838E3DC053AF60DAC23FF222FD8B4BF8 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A48785DB37D3AD4AE4B4121061C833 /* CustomDateFormatTransform.swift */; };
 		84527F79B77F8D583CD712F4B66D23E5 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CDDFF0946EAF2E6180510B888B42E7 /* URLTransform.swift */; };
-		8B3CBF85DDD3EB6DCABC74552B8CE845 /* Pods-HalfTunesShowTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D3CD41E78373969A786CEAB98E25FC /* Pods-HalfTunesShowTests-dummy.m */; };
-		916796F9615E2239E6157178A746EE81 /* Pods-HalfTunesShowTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4151C7E29A50F7EC41E58D60D17C388F /* Pods-HalfTunesShowTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A041BDBDAA1A24F4866AB7A59B613284 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		A7A7E4859656F8F1D9F6FC3EE813673F /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E4993B6103CE0221D4B2C15267F67 /* Operators.swift */; };
+		AB57042D400034B4D48FA667FF1E80E7 /* Pods-HalfTunesFakeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FCCE9C1524061BD165174513F00C60 /* Pods-HalfTunesFakeTests-dummy.m */; };
 		AFAD8A91380DF4E0FA084FDDA543017C /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A41CB3444D3E82039217A79B2AE81D /* TransformType.swift */; };
 		B0BEF326AA8027C84495A75900F94785 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7287B97CFBC3D5902A9E12685836B46E /* ISO8601DateTransform.swift */; };
 		B225FF4E3CBF5A6CFE4938F869D1BCFF /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205CE60695F42FD513DDFF5AD13391EF /* DateTransform.swift */; };
-		B24AB937381835A5E87CA3CA43906D39 /* Pods-HalfTunesFakeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FCCE9C1524061BD165174513F00C60 /* Pods-HalfTunesFakeTests-dummy.m */; };
 		B88AAA6C1A0BD85191D8FAC2C0F8EF01 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAEC555D46C4DC1CBA624A2CC3E7FD7 /* DictionaryTransform.swift */; };
 		C826E6370610CD868FEC719BF304B8D2 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC11B97F326930DFAB1D43E899D9398 /* MapError.swift */; };
+		C8A63EF32BB347E7B8D9DA24D5CF91EB /* Pods-HalfTunesShowTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D3CD41E78373969A786CEAB98E25FC /* Pods-HalfTunesShowTests-dummy.m */; };
 		D5BC63884A1343519049B6D1713D947B /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25346D66488EE6CC208378CFBB185E9C /* NSDecimalNumberTransform.swift */; };
 		DA78A4012AAD5282CD53FD67D8EEFF34 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06DD2F6C6BB6B483FE49CF329DB4C26 /* EnumOperators.swift */; };
 		DE9239C97B18FD6B31ACB1C505386E33 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8ED06CF52785F50D318EFBB1364478 /* DataTransform.swift */; };
 		E24489CC073BD39D03839F3D9B062921 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC5B56D819CD11EC1AEAC978F0C47D1 /* IntegerOperators.swift */; };
+		E8A64AEDA4CF972E372FE089E47C7161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		EAF136CD9E0DD6A53979054A92224F58 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB137CFD389E0FDC758775FA636BDE2 /* FromJSON.swift */; };
+		ED42CB80C6BA9FA6BCF5FEC7572A9AF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		ED4B36B53C3AD85EE4BB5F0FE98D83CF /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFCE414FD15B5F8CD2844ABE77550A6 /* HexColorTransform.swift */; };
-		EF6FAB2C5DA36C1466B8EA6B926E0374 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		EDB54F4407C20FB3E5EB3A43416F17A4 /* Pods-HalfTunesShowTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4151C7E29A50F7EC41E58D60D17C388F /* Pods-HalfTunesShowTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7732BEFB5E973BF19E2D3AC28C39451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		FA7C462AC2E52D9CA53F572968BE41EB /* CodableTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB8C14E9D2434F90B2DB3822DD3DAE /* CodableTransform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		961EB272B0AD6FDBEBDFA193F3B67142 /* PBXContainerItemProxy */ = {
+		08D04D8EB97A0848CE1022DB530B0AE7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 236601E27F8A556A78B6A8A39CF5F665;
 			remoteInfo = "Pods-HalfTunes";
 		};
-		CD08918941B4DE30DFCFF7C01903E43F /* PBXContainerItemProxy */ = {
+		8C3070D84AB45B23C3C6DA6373C1FAA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -61,6 +61,20 @@
 			remoteInfo = "Pods-HalfTunes";
 		};
 		CEA274C41E33BAEEBCF0AFCD3A140690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08BC6B6F95716AEE0A0D4790D6718DB5;
+			remoteInfo = ObjectMapper;
+		};
+		EFA9068C0B447A5385D1B29BC6F3D25A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08BC6B6F95716AEE0A0D4790D6718DB5;
+			remoteInfo = ObjectMapper;
+		};
+		F0239DF4627ABDCA349A4E189FFD40BD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -139,6 +153,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		310816BC14FB4A912C8C346053FFEE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED42CB80C6BA9FA6BCF5FEC7572A9AF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4B092EEA2E0D4483F3626A96E2854D4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,11 +169,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E6047D074A4BD540E6CC6E36F1A01B4 /* Frameworks */ = {
+		A901DF588555F0C25ED762799B594031 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81A58D86BF45940D621C23CA33013F26 /* Foundation.framework in Frameworks */,
+				E8A64AEDA4CF972E372FE089E47C7161 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,14 +182,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A041BDBDAA1A24F4866AB7A59B613284 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAFF6F65090BFC376D16C40FC90D5DDB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF6FAB2C5DA36C1466B8EA6B926E0374 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,19 +356,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7470D68BB1B279430932604C424FEC16 /* Headers */ = {
+		38DDD065FFAA70832224E93715CC7BE3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				916796F9615E2239E6157178A746EE81 /* Pods-HalfTunesShowTests-umbrella.h in Headers */,
+				EDB54F4407C20FB3E5EB3A43416F17A4 /* Pods-HalfTunesShowTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99E2D3F65E3CCDEB92779A87B5820F04 /* Headers */ = {
+		AB4D0F90812B7D2DFCBFA4ECA9268287 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C3FC42A02C5E4C7634FA9941D730A4C /* Pods-HalfTunesFakeTests-umbrella.h in Headers */,
+				2B5471D8AF24ACAEC54EEDA880432C79 /* Pods-HalfTunesFakeTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,42 +420,44 @@
 			productReference = 75B8978560AC63C7F9112B627964EDD9 /* Pods_HalfTunes.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		361B9A13DCC52532DC5DDCFADC391780 /* Pods-HalfTunesFakeTests */ = {
+		8C04E17FB4ABC8BD1836DF7410B5EC86 /* Pods-HalfTunesShowTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 538403BACF6E4434AF19991C6AB7B860 /* Build configuration list for PBXNativeTarget "Pods-HalfTunesFakeTests" */;
+			buildConfigurationList = BE519E5CD01B355C68A76F9BCDEEAD9D /* Build configuration list for PBXNativeTarget "Pods-HalfTunesShowTests" */;
 			buildPhases = (
-				99E2D3F65E3CCDEB92779A87B5820F04 /* Headers */,
-				5D4578C94EF9DC4F0F19320AB22F3A5D /* Sources */,
-				FAFF6F65090BFC376D16C40FC90D5DDB /* Frameworks */,
-				2E549CF436361FB1136B0586E81664A0 /* Resources */,
+				38DDD065FFAA70832224E93715CC7BE3 /* Headers */,
+				FF26D4CC11945A3EC6A755A58D963664 /* Sources */,
+				A901DF588555F0C25ED762799B594031 /* Frameworks */,
+				7CAB868819EF09FB8472A0ABBB3BAF02 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8066524F93DF44E5670B247076327055 /* PBXTargetDependency */,
-			);
-			name = "Pods-HalfTunesFakeTests";
-			productName = "Pods-HalfTunesFakeTests";
-			productReference = CD2F029D9CC6194195F6AB3617CA070B /* Pods_HalfTunesFakeTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8EAAEA61A5C16DD609ACB9CF2D69DF5C /* Pods-HalfTunesShowTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 26ED72790713BB6B76A99D4CB7F963D4 /* Build configuration list for PBXNativeTarget "Pods-HalfTunesShowTests" */;
-			buildPhases = (
-				7470D68BB1B279430932604C424FEC16 /* Headers */,
-				0EAEA78D066691412AE1E9721587EEBF /* Sources */,
-				6E6047D074A4BD540E6CC6E36F1A01B4 /* Frameworks */,
-				C784DD9FD38530636B199FD46847D7EC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5DE272FD0534B42FBF9AD3156FD920BF /* PBXTargetDependency */,
+				25EDE285C7F889B23FCEB6ADEF94FA0B /* PBXTargetDependency */,
+				2CC1D927BF1ADAAC8C69994E773299EC /* PBXTargetDependency */,
 			);
 			name = "Pods-HalfTunesShowTests";
 			productName = "Pods-HalfTunesShowTests";
 			productReference = 6BC27A17F63C3D0D1E4D43C59A67C792 /* Pods_HalfTunesShowTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB246B31693FAD40999ABDAD66BC0A4C /* Pods-HalfTunesFakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD35B15FF6E52F1A82EB81556A391355 /* Build configuration list for PBXNativeTarget "Pods-HalfTunesFakeTests" */;
+			buildPhases = (
+				AB4D0F90812B7D2DFCBFA4ECA9268287 /* Headers */,
+				099DA601FF8650BF1C45C112A0D950B9 /* Sources */,
+				310816BC14FB4A912C8C346053FFEE76 /* Frameworks */,
+				DB3732E50E7B1A35F26D2B71EEB5AB49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				476BA0E77F0DA96936AE35103DD56DB1 /* PBXTargetDependency */,
+				61F4BE9331656A9750920BA9070507BA /* PBXTargetDependency */,
+			);
+			name = "Pods-HalfTunesFakeTests";
+			productName = "Pods-HalfTunesFakeTests";
+			productReference = CD2F029D9CC6194195F6AB3617CA070B /* Pods_HalfTunesFakeTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -467,20 +483,13 @@
 			targets = (
 				08BC6B6F95716AEE0A0D4790D6718DB5 /* ObjectMapper */,
 				236601E27F8A556A78B6A8A39CF5F665 /* Pods-HalfTunes */,
-				361B9A13DCC52532DC5DDCFADC391780 /* Pods-HalfTunesFakeTests */,
-				8EAAEA61A5C16DD609ACB9CF2D69DF5C /* Pods-HalfTunesShowTests */,
+				AB246B31693FAD40999ABDAD66BC0A4C /* Pods-HalfTunesFakeTests */,
+				8C04E17FB4ABC8BD1836DF7410B5EC86 /* Pods-HalfTunesShowTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2E549CF436361FB1136B0586E81664A0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4BA0474212F7F6E66AACA6FAB7FD4035 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,7 +497,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C784DD9FD38530636B199FD46847D7EC /* Resources */ = {
+		7CAB868819EF09FB8472A0ABBB3BAF02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -502,22 +511,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0EAEA78D066691412AE1E9721587EEBF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		DB3732E50E7B1A35F26D2B71EEB5AB49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3CBF85DDD3EB6DCABC74552B8CE845 /* Pods-HalfTunesShowTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D4578C94EF9DC4F0F19320AB22F3A5D /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		099DA601FF8650BF1C45C112A0D950B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B24AB937381835A5E87CA3CA43906D39 /* Pods-HalfTunesFakeTests-dummy.m in Sources */,
+				AB57042D400034B4D48FA667FF1E80E7 /* Pods-HalfTunesFakeTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,20 +569,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF26D4CC11945A3EC6A755A58D963664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A63EF32BB347E7B8D9DA24D5CF91EB /* Pods-HalfTunesShowTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5DE272FD0534B42FBF9AD3156FD920BF /* PBXTargetDependency */ = {
+		25EDE285C7F889B23FCEB6ADEF94FA0B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-HalfTunes";
-			target = 236601E27F8A556A78B6A8A39CF5F665 /* Pods-HalfTunes */;
-			targetProxy = CD08918941B4DE30DFCFF7C01903E43F /* PBXContainerItemProxy */;
+			name = ObjectMapper;
+			target = 08BC6B6F95716AEE0A0D4790D6718DB5 /* ObjectMapper */;
+			targetProxy = EFA9068C0B447A5385D1B29BC6F3D25A /* PBXContainerItemProxy */;
 		};
-		8066524F93DF44E5670B247076327055 /* PBXTargetDependency */ = {
+		2CC1D927BF1ADAAC8C69994E773299EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HalfTunes";
 			target = 236601E27F8A556A78B6A8A39CF5F665 /* Pods-HalfTunes */;
-			targetProxy = 961EB272B0AD6FDBEBDFA193F3B67142 /* PBXContainerItemProxy */;
+			targetProxy = 8C3070D84AB45B23C3C6DA6373C1FAA0 /* PBXContainerItemProxy */;
+		};
+		476BA0E77F0DA96936AE35103DD56DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjectMapper;
+			target = 08BC6B6F95716AEE0A0D4790D6718DB5 /* ObjectMapper */;
+			targetProxy = F0239DF4627ABDCA349A4E189FFD40BD /* PBXContainerItemProxy */;
+		};
+		61F4BE9331656A9750920BA9070507BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HalfTunes";
+			target = 236601E27F8A556A78B6A8A39CF5F665 /* Pods-HalfTunes */;
+			targetProxy = 08D04D8EB97A0848CE1022DB530B0AE7 /* PBXContainerItemProxy */;
 		};
 		FABBA0B43305A828CED2D8AEFE23AF8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -585,6 +613,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2091F32843210DEB9293BE18C615FE7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5150E8FDF00EE15FE63482415505C010 /* Pods-HalfTunesFakeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HalfTunesFakeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HalfTunesFakeTests/Pods-HalfTunesFakeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		285C0CEA48C2372F9DBABC2299A91927 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 495AB73A72D0F1F05F5EFE364C5877B3 /* Pods-HalfTunes.debug.xcconfig */;
@@ -606,40 +668,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HalfTunes/Pods-HalfTunes.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		308DBCB945485813D261215EC2B6CF04 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5150E8FDF00EE15FE63482415505C010 /* Pods-HalfTunesFakeTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HalfTunesFakeTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HalfTunesFakeTests/Pods-HalfTunesFakeTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -683,6 +711,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		55DED8DB0DC31F062056285DA9B73845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A977B2BB7F4CE6AAEF68061F563C4B16 /* Pods-HalfTunesFakeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HalfTunesFakeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HalfTunesFakeTests/Pods-HalfTunesFakeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		5D593420A107DABD3A805B3A8310F5C4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -767,41 +830,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-HalfTunes/Pods-HalfTunes.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8AF71E0C55B46F8DBFD315D793F14C5A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A977B2BB7F4CE6AAEF68061F563C4B16 /* Pods-HalfTunesFakeTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HalfTunesFakeTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HalfTunesFakeTests/Pods-HalfTunesFakeTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -914,7 +942,7 @@
 			};
 			name = Release;
 		};
-		B480DC7CEE2972D5A66A4BBCC53784C5 /* Debug */ = {
+		9888E36A7085F417502A690B23F2B89A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E7A505E8CEF5EAE4299BEE16358AA97F /* Pods-HalfTunesShowTests.debug.xcconfig */;
 			buildSettings = {
@@ -948,7 +976,7 @@
 			};
 			name = Debug;
 		};
-		F3E67D572A761FFB5B457B561EED85BE /* Release */ = {
+		A71B6D006C4B85127651D6F3924A09B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE7132410E4F88A5316CC59721127E2C /* Pods-HalfTunesShowTests.release.xcconfig */;
 			buildSettings = {
@@ -986,15 +1014,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26ED72790713BB6B76A99D4CB7F963D4 /* Build configuration list for PBXNativeTarget "Pods-HalfTunesShowTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B480DC7CEE2972D5A66A4BBCC53784C5 /* Debug */,
-				F3E67D572A761FFB5B457B561EED85BE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1013,11 +1032,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		538403BACF6E4434AF19991C6AB7B860 /* Build configuration list for PBXNativeTarget "Pods-HalfTunesFakeTests" */ = {
+		BE519E5CD01B355C68A76F9BCDEEAD9D /* Build configuration list for PBXNativeTarget "Pods-HalfTunesShowTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				308DBCB945485813D261215EC2B6CF04 /* Debug */,
-				8AF71E0C55B46F8DBFD315D793F14C5A /* Release */,
+				9888E36A7085F417502A690B23F2B89A /* Debug */,
+				A71B6D006C4B85127651D6F3924A09B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD35B15FF6E52F1A82EB81556A391355 /* Build configuration list for PBXNativeTarget "Pods-HalfTunesFakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2091F32843210DEB9293BE18C615FE7A /* Debug */,
+				55DED8DB0DC31F062056285DA9B73845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -215,6 +215,7 @@
 				2C4C255F2225E69D00222264 /* Sources */,
 				2C4C25602225E69D00222264 /* Frameworks */,
 				2C4C25612225E69D00222264 /* Resources */,
+				CF5D5957DE68CD207A19DA56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +235,7 @@
 				2C4C256D2225E9CB00222264 /* Sources */,
 				2C4C256E2225E9CB00222264 /* Frameworks */,
 				2C4C256F2225E9CB00222264 /* Resources */,
+				81AA30FF1B5584E9C165F9AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -383,6 +385,50 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HalfTunes/Pods-HalfTunes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81AA30FF1B5584E9C165F9AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HalfTunesFakeTests/Pods-HalfTunesFakeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HalfTunesFakeTests/Pods-HalfTunesFakeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF5D5957DE68CD207A19DA56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HalfTunesShowTests/Pods-HalfTunesShowTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HalfTunesShowTests/Pods-HalfTunesShowTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F98497A4858B468604F22061 /* [CP] Check Pods Manifest.lock */ = {
