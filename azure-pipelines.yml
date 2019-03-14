@@ -64,6 +64,7 @@ steps:
     configuration: 'Debug'
     #xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     args: '-archivePath $(agent.buildDirectory)/HalfTunes'
+    packageApp: true
 
 # - task: ArchiveFiles@2
 #   displayName: 'Package .xcarchive into a zip file'
