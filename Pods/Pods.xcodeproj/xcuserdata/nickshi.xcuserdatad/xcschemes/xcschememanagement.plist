@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-HalfTunes.xcscheme</key>
+		<key>Pods-HalfTunes.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
 		</dict>
-		<key>Pods-HalfTunesFakeTests.xcscheme</key>
+		<key>Pods-HalfTunesFakeTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
 		</dict>
-		<key>Pods-HalfTunesShowTests.xcscheme</key>
+		<key>Pods-HalfTunesShowTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
