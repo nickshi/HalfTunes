@@ -33,12 +33,12 @@ steps:
     destinationPlatformOption: 'iOS'
     signingOption: "auto"
     useXcpretty: true
-    publishJUnitResults: 'build/reports/junit.xml'
+    publishJUnitResults: true
 
-- task: PublishTestResults@2
-  inputs:
+# - task: PublishTestResults@2
+#   inputs:
     #testResultsFormat: 'JUnit' # Options: JUnit, NUnit, VSTest, xUnit, cTest
-    testResultsFiles: './junit.xml' 
+    #testResultsFiles: './junit.xml' 
     #searchFolder: '$(System.DefaultWorkingDirectory)' # Optional
     #mergeTestResults: false # Optional
     #failTaskOnFailedTests: false # Optional
