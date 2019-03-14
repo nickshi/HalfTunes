@@ -11,6 +11,7 @@ pool:
 
 steps:
 - task: Xcode@5
+  displayName: 'Build the app using Xcode'
   inputs:
     actions: 'build'
     scheme: 'HalfTunes'
@@ -33,6 +34,27 @@ steps:
     signingOption: "auto"
     useXcpretty: true
     publishJUnitResults: 'build/reports/junit.xml'
+- task: Xcode@5
+  displayName: 'Build the app using Xcode'
+  inputs:
+    actions: 'clean build analyze archive'
+    scheme: 'HalfTunes'
+    sdk: 'iphoneos'
+    configuration: 'Debug'
+    xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
+    args: '-archivePath $(agent.buildDirectory)/HalfTunes'
+
+- task: ArchiveFiles@2
+  displayName: 'Package .xcarchive into a zip file'
+  inputs:
+    rootFolderOrFile: '$(agent.buildDirectory)/HalfTunes.xcarchive/'
+    archiveFile: '$(build.artifactStagingDirectory)/HalfTunes.xcarchive.zip'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathToPublish: '$(build.artifactStagingDirectory)/HalfTunes.xcarchive.zip'
+    artifactName: 'xcarchive-files'
+    artifactType: 'container'
   
 
 
