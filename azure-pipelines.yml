@@ -21,7 +21,7 @@ steps:
 #     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
 - task: Xcode@5
   inputs:
-    actions: 'test'
+    actions: 'clean test'
     scheme: 'HalfTunes'
     sdk: 'iphonesimulator'
     configuration: 'Debug'
