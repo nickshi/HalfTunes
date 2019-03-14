@@ -12,6 +12,9 @@
 		2C4C257C2225EB5900222264 /* abbaData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C4C257B2225EB5900222264 /* abbaData.json */; };
 		408976CF1DEBF79E00AAB652 /* DHURLSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408976CE1DEBF79E00AAB652 /* DHURLSessionMock.swift */; };
 		4708D0071DD0E0E100B57EFC /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4708D0061DD0E0E100B57EFC /* Download.swift */; };
+		47375B543DAFF5EA99090472 /* Pods_HalfTunes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1502ED2BF5C1AD4957B52BA5 /* Pods_HalfTunes.framework */; };
+		5B33F009E4BF9E763D09DEA0 /* Pods_HalfTunesShowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EA8E6802C75EBCDE07BC67 /* Pods_HalfTunesShowTests.framework */; };
+		9EE2333DC32826E8953C4F37 /* Pods_HalfTunesFakeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB55B8F40964CEFEC7373470 /* Pods_HalfTunesFakeTests.framework */; };
 		D9EF8FC71B53FD2100EFC4B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EF8FC61B53FD2100EFC4B6 /* AppDelegate.swift */; };
 		D9EF8FCE1B53FD2100EFC4B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EF8FCC1B53FD2100EFC4B6 /* Main.storyboard */; };
 		D9EF8FD01B53FD2100EFC4B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9EF8FCF1B53FD2100EFC4B6 /* Images.xcassets */; };
@@ -39,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1502ED2BF5C1AD4957B52BA5 /* Pods_HalfTunes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalfTunes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4C25632225E69D00222264 /* HalfTunesShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalfTunesShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C4C25652225E69D00222264 /* HalfTunesShowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfTunesShowTests.swift; sourceTree = "<group>"; };
 		2C4C25672225E69D00222264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,8 +50,15 @@
 		2C4C25732225E9CB00222264 /* HalfTunesFakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalfTunesFakeTests.swift; sourceTree = "<group>"; };
 		2C4C25752225E9CB00222264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C4C257B2225EB5900222264 /* abbaData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = abbaData.json; sourceTree = "<group>"; };
+		31EA8E6802C75EBCDE07BC67 /* Pods_HalfTunesShowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalfTunesShowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		408976CE1DEBF79E00AAB652 /* DHURLSessionMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHURLSessionMock.swift; sourceTree = "<group>"; };
 		4708D0061DD0E0E100B57EFC /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		4CF0372A93FB6FBEA94EDCD3 /* Pods-HalfTunes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalfTunes.release.xcconfig"; path = "Pods/Target Support Files/Pods-HalfTunes/Pods-HalfTunes.release.xcconfig"; sourceTree = "<group>"; };
+		7AC04F3D1208D60D9A892490 /* Pods-HalfTunesFakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalfTunesFakeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HalfTunesFakeTests/Pods-HalfTunesFakeTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B144A54F5008A96F9D89FFD /* Pods-HalfTunesShowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalfTunesShowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HalfTunesShowTests/Pods-HalfTunesShowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		99E01C2C9A2B33CA65A07E86 /* Pods-HalfTunes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalfTunes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HalfTunes/Pods-HalfTunes.debug.xcconfig"; sourceTree = "<group>"; };
+		BB55B8F40964CEFEC7373470 /* Pods_HalfTunesFakeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HalfTunesFakeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEF57B5CD9215C62707D7F8 /* Pods-HalfTunesShowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalfTunesShowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HalfTunesShowTests/Pods-HalfTunesShowTests.release.xcconfig"; sourceTree = "<group>"; };
 		D9EF8FC11B53FD2100EFC4B6 /* HalfTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalfTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9EF8FC51B53FD2100EFC4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9EF8FC61B53FD2100EFC4B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +68,7 @@
 		D9EF8FE81B53FD6900EFC4B6 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		D9EF8FED1B53FDCB00EFC4B6 /* TrackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
 		D9EF8FEE1B53FDCB00EFC4B6 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		E808B9ED6A2842F1CC5313DA /* Pods-HalfTunesFakeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HalfTunesFakeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HalfTunesFakeTests/Pods-HalfTunesFakeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B33F009E4BF9E763D09DEA0 /* Pods_HalfTunesShowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE2333DC32826E8953C4F37 /* Pods_HalfTunesFakeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47375B543DAFF5EA99090472 /* Pods_HalfTunes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +116,29 @@
 				2C4C25752225E9CB00222264 /* Info.plist */,
 			);
 			path = HalfTunesFakeTests;
+			sourceTree = "<group>";
+		};
+		6E8BEE4C46432D0346842FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1502ED2BF5C1AD4957B52BA5 /* Pods_HalfTunes.framework */,
+				BB55B8F40964CEFEC7373470 /* Pods_HalfTunesFakeTests.framework */,
+				31EA8E6802C75EBCDE07BC67 /* Pods_HalfTunesShowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C794727CF69EC44BCCD0ACA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99E01C2C9A2B33CA65A07E86 /* Pods-HalfTunes.debug.xcconfig */,
+				4CF0372A93FB6FBEA94EDCD3 /* Pods-HalfTunes.release.xcconfig */,
+				E808B9ED6A2842F1CC5313DA /* Pods-HalfTunesFakeTests.debug.xcconfig */,
+				7AC04F3D1208D60D9A892490 /* Pods-HalfTunesFakeTests.release.xcconfig */,
+				7B144A54F5008A96F9D89FFD /* Pods-HalfTunesShowTests.debug.xcconfig */,
+				BEEF57B5CD9215C62707D7F8 /* Pods-HalfTunesShowTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D92117481B596DFE008DAD44 /* Cells */ = {
@@ -127,6 +165,8 @@
 				2C4C25642225E69D00222264 /* HalfTunesShowTests */,
 				2C4C25722225E9CB00222264 /* HalfTunesFakeTests */,
 				D9EF8FC21B53FD2100EFC4B6 /* Products */,
+				C794727CF69EC44BCCD0ACA1 /* Pods */,
+				6E8BEE4C46432D0346842FF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C4C256C2225E69D00222264 /* Build configuration list for PBXNativeTarget "HalfTunesShowTests" */;
 			buildPhases = (
+				F98497A4858B468604F22061 /* [CP] Check Pods Manifest.lock */,
 				2C4C255F2225E69D00222264 /* Sources */,
 				2C4C25602225E69D00222264 /* Frameworks */,
 				2C4C25612225E69D00222264 /* Resources */,
@@ -189,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C4C25782225E9CB00222264 /* Build configuration list for PBXNativeTarget "HalfTunesFakeTests" */;
 			buildPhases = (
+				35F6B6BB9653EC46A1B12E5D /* [CP] Check Pods Manifest.lock */,
 				2C4C256D2225E9CB00222264 /* Sources */,
 				2C4C256E2225E9CB00222264 /* Frameworks */,
 				2C4C256F2225E9CB00222264 /* Resources */,
@@ -207,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9EF8FE21B53FD2100EFC4B6 /* Build configuration list for PBXNativeTarget "HalfTunes" */;
 			buildPhases = (
+				FA52B0D0E5E70E7B6B98C978 /* [CP] Check Pods Manifest.lock */,
 				D9EF8FBD1B53FD2100EFC4B6 /* Sources */,
 				D9EF8FBE1B53FD2100EFC4B6 /* Frameworks */,
 				D9EF8FBF1B53FD2100EFC4B6 /* Resources */,
+				77063C16D56DBBABC0D0DF3E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,6 +340,97 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35F6B6BB9653EC46A1B12E5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HalfTunesFakeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77063C16D56DBBABC0D0DF3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HalfTunes/Pods-HalfTunes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HalfTunes/Pods-HalfTunes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F98497A4858B468604F22061 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HalfTunesShowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA52B0D0E5E70E7B6B98C978 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HalfTunes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C4C255F2225E69D00222264 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -363,6 +498,7 @@
 /* Begin XCBuildConfiguration section */
 		2C4C256A2225E69D00222264 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B144A54F5008A96F9D89FFD /* Pods-HalfTunesShowTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -400,6 +536,7 @@
 		};
 		2C4C256B2225E69D00222264 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEEF57B5CD9215C62707D7F8 /* Pods-HalfTunesShowTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -434,6 +571,7 @@
 		};
 		2C4C25792225E9CB00222264 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E808B9ED6A2842F1CC5313DA /* Pods-HalfTunesFakeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -471,6 +609,7 @@
 		};
 		2C4C257A2225E9CB00222264 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC04F3D1208D60D9A892490 /* Pods-HalfTunesFakeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -592,6 +731,7 @@
 		};
 		D9EF8FE31B53FD2100EFC4B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E01C2C9A2B33CA65A07E86 /* Pods-HalfTunes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -605,6 +745,7 @@
 		};
 		D9EF8FE41B53FD2100EFC4B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF0372A93FB6FBEA94EDCD3 /* Pods-HalfTunes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
