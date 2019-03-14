@@ -22,7 +22,8 @@ steps:
   inputs:
     actions: 'test'
     scheme: 'HalfTunes'
-    sdk: 'iphoneos'
+    sdk: 'iphonesimulator'
+    destinationSimulators: 'iPhone 7'
     configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
