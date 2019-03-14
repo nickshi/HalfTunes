@@ -6,7 +6,7 @@ target 'HalfTunes' do
   use_frameworks!
 
   # Pods for HalfTunes
-  pod "ObjectMapper"
+  #pod "ObjectMapper"
   target 'HalfTunesFakeTests' do
     inherit! :search_paths
     # Pods for testing
