@@ -19,6 +19,11 @@ steps:
 #     configuration: 'Release'
 #     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
 #     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
+
+- task: CocoaPods@0
+  displayName: 'pod install using the CocoaPods task with defaults'
+
+  
 - task: Xcode@5
   inputs:
     actions: 'clean test'
