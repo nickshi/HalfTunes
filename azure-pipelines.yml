@@ -23,10 +23,15 @@ steps:
     actions: 'test'
     scheme: 'HalfTunes'
     sdk: 'iphonesimulator'
-    destinationSimulators: 'iPhone 7'
-    configuration: 'Release'
+    configuration: 'Debug'
+    xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
+    packageApp: false
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-    xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
+    destinationSimulators: 'iPhone 7'
+    destinationTypeOption: 'simulators'
+    destinationPlatformOption: 'iOS'
+    signingOption: "auto"
+    useXcpretty: true
     publishJUnitResults: 'build/reports/junit.xml'
   
 
