@@ -63,7 +63,7 @@ steps:
     sdk: 'iphoneos'
     configuration: 'Debug'
     #xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-    args: '-archivePath $(agent.buildDirectory)/HalfTunes'
+    #args: '-archivePath $(agent.buildDirectory)/HalfTunes'
     packageApp: true
 
 # - task: ArchiveFiles@2
