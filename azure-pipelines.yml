@@ -66,11 +66,11 @@ steps:
     args: '-archivePath $(agent.buildDirectory)/HalfTunes'
     #packageApp: true
 
-# - task: ArchiveFiles@2
-#   displayName: 'Package .xcarchive into a zip file'
-#   inputs:
-#     rootFolderOrFile: '$(agent.buildDirectory)/HalfTunes.xcarchive/'
-#     archiveFile: '$(build.artifactStagingDirectory)/HalfTunes.xcarchive.zip'
+- task: ArchiveFiles@2
+  displayName: 'Package .xcarchive into a zip file'
+  inputs:
+    rootFolderOrFile: '$(agent.buildDirectory)/HalfTunes.xcarchive/'
+    archiveFile: '$(build.artifactStagingDirectory)/HalfTunes.xcarchive.zip'
 
 # - task: PublishBuildArtifacts@1
 #   inputs:
