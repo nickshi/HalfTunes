@@ -72,11 +72,11 @@ steps:
     rootFolderOrFile: '$(agent.buildDirectory)/HalfTunes.xcarchive/'
     archiveFile: '$(build.artifactStagingDirectory)/HalfTunes.xcarchive.zip'
 
-# - task: PublishBuildArtifacts@1
-#   inputs:
-#     pathToPublish: '$(build.artifactStagingDirectory)/HalfTunes.xcarchive.zip'
-#     artifactName: 'xcarchive-files'
-#     artifactType: 'container'
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathToPublish: '$(build.artifactStagingDirectory)/HalfTunes.xcarchive.zip'
+    artifactName: 'xcarchive-files'
+    artifactType: 'container'
   
 
 
