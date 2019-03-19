@@ -35,6 +35,7 @@ steps:
     configuration: 'Debug'
     xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
     packageApp: false
+    xcWorkspacePath: '**/HalfTunes.xcworkspace'
     #xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     destinationSimulators: 'iPhone 7'
     destinationTypeOption: 'simulators'
@@ -55,29 +56,29 @@ steps:
     #buildConfiguration: # Optional
     #publishRunAttachments: true # Optional
     
-- task: Xcode@5
-  displayName: 'Build the app using Xcode'
-  inputs:
-    actions: 'clean build analyze archive'
-    scheme: 'HalfTunes'
-    sdk: 'iphoneos'
-    configuration: 'Debug'
-    xcWorkspacePath: '**/HalfTunes.xcworkspace'
-    #xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-    args: '-archivePath $(agent.buildDirectory)/HalfTunes'
-    #packageApp: true
+# - task: Xcode@5
+#   displayName: 'Build the app using Xcode'
+#   inputs:
+#     actions: 'clean build analyze archive'
+#     scheme: 'HalfTunes'
+#     sdk: 'iphoneos'
+#     configuration: 'Debug'
+#     xcWorkspacePath: '**/HalfTunes.xcworkspace'
+#     #xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
+#     args: '-archivePath $(agent.buildDirectory)/HalfTunes'
+#     #packageApp: true
 
-- task: ArchiveFiles@2
-  displayName: 'Package .xcarchive into a zip file'
-  inputs:
-    rootFolderOrFile: '$(agent.buildDirectory)/HalfTunes.xcarchive/'
-    archiveFile: '$(build.artifactStagingDirectory)/HalfTunes.xcarchive.zip'
+# - task: ArchiveFiles@2
+#   displayName: 'Package .xcarchive into a zip file'
+#   inputs:
+#     rootFolderOrFile: '$(agent.buildDirectory)/HalfTunes.xcarchive/'
+#     archiveFile: '$(build.artifactStagingDirectory)/HalfTunes.xcarchive.zip'
 
-- task: PublishBuildArtifacts@1
-  inputs:
-    pathToPublish: '$(build.artifactStagingDirectory)/HalfTunes.xcarchive.zip'
-    artifactName: 'xcarchive-files'
-    artifactType: 'container'
+# - task: PublishBuildArtifacts@1
+#   inputs:
+#     pathToPublish: '$(build.artifactStagingDirectory)/HalfTunes.xcarchive.zip'
+#     artifactName: 'xcarchive-files'
+#     artifactType: 'container'
   
 
 
