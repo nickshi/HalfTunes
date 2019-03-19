@@ -27,21 +27,21 @@ steps:
 #   displayName: 'pod install using the CocoaPods task with defaults'
 
   
-# - task: Xcode@5
-#   inputs:
-#     actions: 'clean test'
-#     scheme: 'HalfTunes'
-#     sdk: 'iphonesimulator'
-#     configuration: 'Debug'
-#     xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
-#     packageApp: false
-#     #xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-#     destinationSimulators: 'iPhone 7'
-#     destinationTypeOption: 'simulators'
-#     destinationPlatformOption: 'iOS'
-#     signingOption: "auto"
-#     useXcpretty: true
-#     publishJUnitResults: true
+- task: Xcode@5
+  inputs:
+    actions: 'clean test'
+    scheme: 'HalfTunes'
+    sdk: 'iphonesimulator'
+    configuration: 'Debug'
+    xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
+    packageApp: false
+    #xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
+    destinationSimulators: 'iPhone 7'
+    destinationTypeOption: 'simulators'
+    destinationPlatformOption: 'iOS'
+    signingOption: "auto"
+    useXcpretty: true
+    publishJUnitResults: true
 
 # - task: PublishTestResults@2
 #   inputs:
