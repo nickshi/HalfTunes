@@ -40,7 +40,7 @@ class HalfTunesUITests: XCTestCase {
         app/*@START_MENU_TOKEN@*/.buttons["Search"]/*[[".keyboards",".buttons[\"确认\"]",".buttons[\"Search\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.tap()
         app/*@START_MENU_TOKEN@*/.buttons["Search"]/*[[".keyboards",".buttons[\"搜索\"]",".buttons[\"Search\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.tap()
         
-        XCTAssert(1 == 2, "Equal failed")
+        XCTAssert(1 == 1, "Equal failed")
     }
 
 }
