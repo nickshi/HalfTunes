@@ -287,6 +287,7 @@
 					};
 					D9EF8FC01B53FD2100EFC4B6 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = ZGTXME65KS;
 						LastSwiftMigration = 0810;
 					};
 				};
@@ -699,10 +700,10 @@
 			baseConfigurationReference = 4FE00F0DF28C0A6340D71922 /* Pods-HalfTunes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZGTXME65KS;
 				INFOPLIST_FILE = HalfTunes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.HalfTunes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prevailhealth.pipelinetest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -713,10 +714,10 @@
 			baseConfigurationReference = 2644AF2961C61465F6FE77CE /* Pods-HalfTunes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZGTXME65KS;
 				INFOPLIST_FILE = HalfTunes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.HalfTunes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prevailhealth.pipelinetest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
