@@ -174,20 +174,8 @@
         "rate-mentor": "Rate Mentor",
         "Share": "Share",
         "Send": "Send",
-        "Message": {
-            "": {
-                "": {
-                    "": "Message..."
-                }
-            }
-        },
-        "Sending": {
-            "": {
-                "": {
-                    "": "Sending..."
-                }
-            }
-        },
+        "Message": "Message...",
+        "Sending": "Sending...",
         "inappropriate-behavior": "Inappropriate Behavior",
         "self-harm": "Self Harm",
         "harm-to-others": "Harm to Others",
