@@ -400,5 +400,13 @@
         "for-us-users-press-to-click-here-and-follow-the-simple-instructions-to-connect-to-a-professional": "For US users,Press to Click here and follow the simple instructions to connect to a professional.",
         "for-international-users-press-to-click-here-and-follow-the-simple-instructions-to-connect-to-a-profe": "For International users,Press to Click here and follow the simple instructions to connect to a professional.",
         "your-peer-coach-is-not-a-member-of-a-crisis-line-and-is-not-equipped-to-provide-medical-care-we-are-": "Your Peer Coach is not a member of a crisis line and is not equipped to provide medical care, we are required to connect you to someone to help you. There is help! Click to connect to a professional right now.\n\n %@ \n\n %@"
+    },
+    "es": {
+        "Inbox": "Bandeja de entrada",
+        "Home": "CasaCasa",
+        "Community": "Comunidad",
+        "More": "Más",
+        "enable_id": "enable_id",
+        "enable_face_id_des": "enable_face_id_des"
     }
 }
